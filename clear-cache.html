@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clear Cache</title>
+</head>
+<body>
+    <h1>Clearing cache...</h1>
+    <script>
+        localStorage.removeItem('awesome_prompt_cache');
+        setTimeout(() => {
+            window.location.href = 'index.html';
+        }, 500);
+    </script>
+</body>
+</html>

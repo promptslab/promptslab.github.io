@@ -1,64 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>PromptLab</title>
-	<style>
-		body {
-			background-image: url("https://images.unsplash.com/photo-1508615070457-7baeba4003ab");
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-position: center center;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Prompt Engineering - PromptLab</title>
+    <meta name="description" content="A curated collection of resources for Prompt Engineering with focus on GPT, ChatGPT, PaLM and other LLMs">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<h3 align="center">
-		<img src="https://avatars.githubusercontent.com/u/120981762?s=400&u=0f99838e8b43f32da445e3ed913681b481416d8a&v=4" height="200">
-	</h3>
-    <h4 align="center">
-	<a href="https://discord.gg/m88xfYMbK6">
-		<img src="https://img.shields.io/badge/Discord-Community-orange" alt="Community" />
-	</a>
-</h4>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="https://avatars.githubusercontent.com/u/120981762?s=400&u=0f99838e8b43f32da445e3ed913681b481416d8a&v=4" height="40" alt="PromptLab">
+                <span>PromptLab</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="https://discord.gg/m88xfYMbK6" target="_blank">Discord</a>
+            </div>
+        </div>
+    </nav>
 
-<h2 align="center">
-	<p> Working on Generative Models | Prompt-Engineering | LLMs</p>
-</h2>
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <h1>Awesome Prompt Engineering 🧙‍♂️</h1>
+            <p>A hand-curated collection of resources for Prompt Engineering with focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM and other LLMs</p>
+            <div class="hero-badges">
+                <img src="https://awesome.re/badge.svg" alt="Awesome" />
+                <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License" />
+                <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" />
+                <img src="https://img.shields.io/badge/Discord-Community-orange" alt="Community" />
+            </div>
+        </div>
+    </div>
 
-<div align="center">
-	PromptLab is dedicated to developing open-source tools and libraries that support developers in creating robust pipelines for using LLMs APIs in production. With these tools, developers can focus on building the logic of their NLP application, while the library handles the complexities of integrating LLMs into their pipeline. Join us and discover the true potential of LLMs in healthcare and business applications!
-</div>
+    <!-- Sidebar Navigation -->
+    <div class="sidebar">
+        <div class="sidebar-header">Categories</div>
+        <nav class="sidebar-nav">
+            <a href="#papers" class="sidebar-link">📄 Papers</a>
+            <a href="#tools" class="sidebar-link">🛠️ Tools & Code</a>
+            <a href="#apis" class="sidebar-link">🔌 APIs</a>
+            <a href="#datasets" class="sidebar-link">📊 Datasets</a>
+            <a href="#models" class="sidebar-link">🤖 Models</a>
+            <a href="#detectors" class="sidebar-link">🔍 AI Content Detectors</a>
+            <a href="#courses" class="sidebar-link">👩‍🏫 Courses</a>
+            <a href="#tutorials" class="sidebar-link">📚 Tutorials</a>
+            <a href="#videos" class="sidebar-link">🎥 Videos</a>
+            <a href="#books" class="sidebar-link">📖 Books</a>
+            <a href="#communities" class="sidebar-link">🤝 Communities</a>
+        </nav>
+    </div>
 
-<h3 align="center">
-	<p> Open-Source LLM and Prompt-Engineering Tools/Libraries </p>
-</h3>
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="content-section">
+            <div class="container" id="contentContainer">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading awesome resources...</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<p>Welcome to PromptsLab! We're working on awesome open-source toolkit designed to make it easy to work with Large Language Models(LLMs). Check out our core repos:</p>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 PromptLab. Built with ❤️ for the AI community</p>
+            <div class="footer-links">
+                <a href="https://github.com/promptslab/Awesome-Prompt-Engineering" target="_blank">GitHub</a>
+                <a href="about.html">About</a>
+                <a href="https://discord.gg/m88xfYMbK6" target="_blank">Discord</a>
+            </div>
+        </div>
+    </footer>
 
-<ul>
-	<li>
-		<a href="https://github.com/promptslab/Promptify">Promptify</a> - Core library with LLM & Prompt-Engineering components for NLP tasks in Python
-		</li>
-	<li>
-		<a href="https://github.com/promptslab/PromptifyJs">PromptifyJs</a> - Core library with LLM & Prompt-Engineering components for NLP tasks in Javascript
-		</li>
-	<li>
-		<a href="https://github.com/promptslab/PromptGraph">PromptGraph</a> - Library that Solve Geometric & Graph Problems with Large Language Models
-		</li>
-	<li>
-		<a href="https://github.com/promptslab/PromptChat">PromptChat</a> - Experience uninterrupted access to ChatGPT without any server downtime or request limitations
-		</li>
-	<li>
-		<a href="https://github.com/promptslab/openai-detector">openai-detector</a> - AI classifier for indicating AI-written text in python (Openai Detector in Python)
-		</li>
-	<li>
-		<a href="https://github.com/promptslab/Awesome-Prompt-Engineering">Awesome Prompt Engineering</a> - This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc
-		</li>
-	<li>
-		<a href="https://github.com/promptslab/LLM-Prompt-Vulnerabilities">LLM Prompt Vulnerabilities</a> - Prompts Methods to find the vulnerabilities in Generative Models
-		</li>
-</ul>
-
-<p>If you have questions, Join our <a href="https://discord.gg/m88xfYMbK6">discord Community</a> for Prompt-Engineering, LLMs and other latest research discussions.</p>
+    <script src="app.js"></script>
 </body>
 </html>
